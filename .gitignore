@@ -15,5 +15,11 @@ build/
 venv/
 env/
 
-# Any large data files
-*.csv
+# Optional: uncomment if you don't want to include data files in the repo
+# data/*.csv
+
+# Large model files
+*.pt
+*.bin
+*.safetensors
+bert_misinfo_model_with_lime/
